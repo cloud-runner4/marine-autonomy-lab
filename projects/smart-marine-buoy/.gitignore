@@ -1,0 +1,27 @@
+# Build artefacts
+build/
+.pio/
+*.bin
+*.elf
+*.hex
+*.o
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Edge Impulse / model temp
+*.eim
+ei-*-export-tmp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large/scratch data (commit curated datasets + results, not raw dumps)
+data/raw/scratch/
+*.tmp

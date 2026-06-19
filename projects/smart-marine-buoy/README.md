@@ -66,7 +66,7 @@ electronic engineering; signal-processing module 2026/27). The marine-fabricatio
 deployment layer is the part software-only work cannot replicate; the embedded and ML layer
 is in active development and documented as it grows.
 
-## Licence / visibility
-
-To be decided before the first model commit (public for portfolio value vs. private for IP).
-See the open questions in the project design document.
+## Licence
+- **Software / firmware:** MIT (see `LICENSE`)
+- **Hardware design files:** CERN-OHL-P v2 (see `LICENSE-HARDWARE`)
+- **Documentation:** © 2026 Jonathan Blake, reuse with attribution welcome

@@ -1,0 +1,19 @@
+This project contains both software and hardware design files,
+released under two licences.
+
+SOFTWARE
+All source code, firmware, and scripts are licensed under the
+MIT License. See LICENSE.
+
+HARDWARE
+All hardware design files — including CAD models, schematics,
+PCB layouts, enclosure designs, and mechanical drawings — are
+licensed under the CERN Open Hardware Licence Version 2 -
+Permissive (CERN-OHL-P v2). See LICENSE-HARDWARE.
+
+DOCUMENTATION
+Documentation, devlogs, and written materials are © 2026
+Jonathan Blake and are shared for reference. Reuse with
+attribution is welcome.
+
+Copyright (c) 2026 Jonathan Blake

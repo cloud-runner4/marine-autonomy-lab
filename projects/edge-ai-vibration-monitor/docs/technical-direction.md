@@ -7,7 +7,7 @@ Detect faults in rotating marine machinery (motors, pumps, thrusters) from vibra
 **on-device**, and report a health verdict rather than raw data — so the capability survives on a
 platform that is power-limited and effectively comms-denied (the subsea case).
 
-**Honest scope.** The long-term *goal* is detecting *developing* (incipient) faults early. v1
+**Scope of the claim.** The long-term *goal* is detecting *developing* (incipient) faults early. v1
 proves the method end-to-end and detects **present, established faults** — including a *seeded*
 (already-damaged) bearing. Genuinely *early* bearing detection relies on high-frequency resonance
 energy (envelope/demodulation territory) above the v1 sensor's usable band, and is a v2 target,
@@ -85,7 +85,7 @@ transfer-function thread.
 See [open-questions.md](open-questions.md). The principal known limitation is sensor bandwidth
 versus high-frequency bearing signatures (ADR-0001 / ADR-0007), handled by the v2 upgrade path.
 
-## 8. Honest positioning
+## 8. Positioning
 Established ground: marine fabrication/composites, production and delivery, hands-on
 electromechanical and power work. In active development: firmware, on-device ML, PCB design,
 signal processing (BEng in marine autonomy + this project). See

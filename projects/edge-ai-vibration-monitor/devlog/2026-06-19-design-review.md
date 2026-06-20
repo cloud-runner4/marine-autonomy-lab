@@ -1,4 +1,4 @@
-# 2026-06-19 - Design review and honesty pass
+# 2026-06-19 - Design review and scope correction
 
 **State:** still design / early build. No hardware bring-up yet. This was a documentation-only
 session: a critical review of the scaffolded repo, then revisions. Recording it because the
@@ -14,7 +14,7 @@ what gets built.
   states. That over-claims: at the ADXL345's ~1600 Hz usable band, plain FFT band energies catch a
   *gross / seeded* defect but not genuinely *incipient* damage, whose tell-tale energy is in
   high-frequency resonance (envelope-analysis territory). Reframed throughout: the *goal* is
-  developing-fault detection; v1 honestly demonstrates *present*-fault classification, and early
+  developing-fault detection; v1 demonstrates *present*-fault classification, and early
   detection is a v2 target (needs envelope features + more bandwidth). README, technical-direction,
   ADR-0003 updated.
 - **Pulled the differentiator forward.** The strongest, least-replicable thread — that the mount is
@@ -23,13 +23,13 @@ what gets built.
   deliverable**: a coupling sensitivity study and a mounting spec, done before the fault dataset.
   Added to the method and milestones; named as the headline in technical-direction and the README.
 - **CWRU cross-check reframed.** CWRU is 12/48 kHz on a high-bandwidth sensor, so a like-for-like
-  comparison would be dishonest. Reframed as: down-sample CWRU into the v1 band and re-run the
+  comparison would be misleading. Reframed as: down-sample CWRU into the v1 band and re-run the
   hand-built pipeline — validates the *pipeline*, not parity with CWRU-grade kit. (ADR-0004,
   open-question 3.)
 - **Resolved a latent contradiction.** ADR-0003 said "hand-build the FFT"; `platformio.ini` listed
   `arduinoFFT`. Made the sequence explicit: hand-build first (the evidence of understanding),
   cross-check, then optionally use the library on-device purely for speed.
-- **Reporting honesty.** Imbalance and looseness are trivially separable at this bandwidth, so
+- **Per-class reporting.** Imbalance and looseness are trivially separable at this bandwidth, so
   headline accuracy will look high regardless. Committed to reporting **per-class** performance with
   bearing-class results called out separately (roadmap P2 exit, open-question 6).
 - **Kill / pivot criteria** added to every roadmap phase — what result would falsify the approach

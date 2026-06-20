@@ -10,12 +10,12 @@
   documented limitation.
 - **Consequences:** Repeatable, safe and cleanly labelled. May not capture every real
   degradation mode; cross-checking against public bearing datasets and, later, any real records
-  mitigates this. This mirrors the synthetic-to-real honesty of the companion buoy project.
+  mitigates this. This mirrors the synthetic-to-real discipline of the companion buoy project.
 - **On the public-dataset cross-check (important caveat).** The obvious reference, CWRU, is
   recorded at 12 kHz / 48 kHz with a high-bandwidth accelerometer — its detection performance
   leans on resonance energy well above this project's ~1600 Hz usable band (ADR-0001/0007). A
   naive "my device vs CWRU-grade detection" comparison would be apples-to-oranges and would
-  flatter or unfairly damn this build. The honest, sharper use is to **down-sample CWRU into the
+  flatter or unfairly damn this build. The sharper use is to **down-sample CWRU into the
   v1 band and re-run the hand-built feature pipeline on it** — answering "which fault signatures
   survive at my bandwidth?" with data (directly addresses open-question on bandwidth). The
   cross-check validates the *pipeline*, it does not claim parity with CWRU-grade instrumentation.

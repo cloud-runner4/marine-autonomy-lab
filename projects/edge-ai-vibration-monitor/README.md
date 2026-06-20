@@ -12,7 +12,7 @@ A self-contained sensor that learns the vibration signature of rotating machiner
 pumps, thrusters) and classifies its health state **on-device**, reporting a verdict and
 confidence rather than raw waveforms.
 
-**Honest scope of the claim.** The long-term *goal* is catching faults while they are still
+**Scope of the claim.** The long-term *goal* is catching faults while they are still
 *developing*. v1 is precise about what it actually proves: it classifies **present, established
 fault states** — imbalance, looseness, and a *seeded* bearing defect — end-to-end on-device.
 Detecting genuinely *incipient* bearing damage is a harder problem: the tell-tale energy lives in
@@ -44,7 +44,7 @@ pure-software route stops at "feed the FFT to a classifier"; the edge that no so
 candidate replicates is owning the mechanical coupling end-to-end. This is pulled forward into
 Phase 1 deliberately (see [roadmap](docs/roadmap.md)).
 
-## Honest positioning
+## Positioning
 - **Established ground:** professional marine fabrication and composites, production management, and hands-on electromechanical / power work (motors, drives, machine rebuilds).
 - **In active development:** embedded firmware, on-device ML, PCB design and signal processing — underpinned by a part-time BEng in marine autonomy and projects like this one.
 
@@ -58,7 +58,7 @@ A fuller breakdown is in [docs/competency-matrix.md](docs/competency-matrix.md).
 | `docs/adr/` | Architecture decision records (the design reasoning) |
 | `docs/roadmap.md` | Phased plan and status |
 | `docs/open-questions.md` | Live engineering questions |
-| `docs/competency-matrix.md` | What this project evidences, honestly levelled |
+| `docs/competency-matrix.md` | What this project evidences, with current levels |
 | `docs/bom.md` | Bill of materials |
 | `firmware/` | ESP32 firmware (skeleton; under development) |
 | `hardware/` | PCB design (KiCad; to come) |

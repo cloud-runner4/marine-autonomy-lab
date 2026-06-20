@@ -48,7 +48,7 @@ approach, not just what would confirm it.
 - Validate against seeded faults; characterise false-positive / false-negative behaviour
 - Commit results, plots and decision updates
 - **Exit:** documented validation against known faults, with the present-vs-incipient boundary
-  stated honestly
+  stated plainly
 - **Kill / pivot:** if false-positive behaviour makes a verdict untrustworthy for an unattended
   platform, report the operating envelope where it *is* trustworthy rather than claiming general
   reliability

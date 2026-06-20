@@ -16,6 +16,6 @@ hardware/
   enclosure/        # Fusion 360 source + STEP / STL exports
   rig/              # oscillation-rig CAD + drive notes
 ```
-Honest note: marine fabrication is established ground; the embedded/PCB side is carried by the
+Note: marine fabrication is established ground; the embedded/PCB side is carried by the
 vibration-monitor project (ADR-0008). Licensed CERN-OHL-P v2 (see ../LICENSE-HARDWARE) — add an
 SPDX header to each design file as it lands.

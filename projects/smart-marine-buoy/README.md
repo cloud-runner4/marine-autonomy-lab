@@ -24,7 +24,7 @@ and test data follow against the roadmap.
   ([ADR-0005](docs/decisions/0005-characterisation-no-tank.md))
 - **Sensor judged on the right axis** — low-frequency noise and bias, not output data rate.
   ([ADR-0001](docs/decisions/0001-imu-figure-of-merit.md))
-- **Honest tooling** — Edge Impulse for deployment and quantisation; the spectral feature
+- **Tooling boundary** — Edge Impulse for deployment and quantisation; the spectral feature
   pipeline is hand-built. ([ADR-0003](docs/decisions/0003-handrolled-features-ei-deploy.md))
 
 ## Roadmap
@@ -37,16 +37,14 @@ Three phases, each with exit and kill/pivot criteria — see [`docs/roadmap.md`]
 - [`docs/technical-direction.md`](docs/technical-direction.md) — objective, scope, method
 - [`docs/roadmap.md`](docs/roadmap.md) — phased plan with exit / kill-pivot criteria
 - [`docs/open-questions.md`](docs/open-questions.md) — live questions and how each resolves
-- [`docs/competency-matrix.md`](docs/competency-matrix.md) — what the project evidences, honest levels
+- [`docs/competency-matrix.md`](docs/competency-matrix.md) — what the project evidences, with current levels
 - [`docs/decisions/`](docs/decisions/) — decision records (ADRs)
 - [`docs/bom.csv`](docs/bom.csv) — planned bill of materials with status
 - [`docs/wiring/`](docs/wiring/) — pin assignment and wiring
-- [`docs/photos/`](docs/photos/) — build photos
 - [`devlog/`](devlog/) — dated, same-evening working notes
 - [`firmware/`](firmware/) — ESP32 firmware (skeleton; built from M1)
 - [`hardware/`](hardware/) — enclosure and rig design files (CERN-OHL-P v2)
 - [`data/raw/`](data/raw/) · [`data/results/`](data/results/) — datasets and committed results
-- [`tools/`](tools/) — host-side scripts (wave-spectrum generator, plotting)
 
 ## Positioning
 Built by a fabrication and robotics technologist with a professional boatbuilding and marine

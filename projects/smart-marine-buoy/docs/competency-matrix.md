@@ -1,6 +1,6 @@
 # Competency matrix
 
-What this project is intended to evidence, with an honest current level. Levels:
+What this project is intended to evidence, with its current level stated plainly. Levels:
 **established** (professional track record) · **developing** (hands-on, guided, improving) ·
 **new** (deliberately learning here).
 

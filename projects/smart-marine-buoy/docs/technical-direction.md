@@ -7,7 +7,7 @@ A low-power floating node that classifies sea-state from its own motion **on-dev
 transmits the classification, not the raw stream — so the capability survives where telemetry
 is scarce and costly (the offshore case).
 
-**Honest scope.** v1 proves the method end-to-end on a dev board: three sea-state bands, trained
+**Scope of the claim.** v1 proves the method end-to-end on a dev board: three sea-state bands, trained
 on synthetic data and validated against real water. It is deliberately an applied edge-ML
 exercise; the classical baseline (significant wave height from spectral moments) is the v2
 comparison, not a v1 claim (ADR-0007). The hull's heave response is measured, not assumed

@@ -1,4 +1,4 @@
-# Hardware — planned
+# Hardware
 
 > **Status:** not started. Enclosure CAD and the characterisation-rig design will be committed
 > here as they are built (see [../docs/roadmap.md](../docs/roadmap.md)).

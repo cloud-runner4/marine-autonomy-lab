@@ -3,11 +3,9 @@
 Status keys: **planned** · **in progress** · **done**
 
 Each phase has an **Exit** (what success looks like) and a **Kill / pivot** criterion (the result
-that would say the approach can't do the job, and what to do then). Recording the latter is
-deliberate — a portfolio aimed partly at a research track should show what would falsify the
-approach, not just what would confirm it.
+to say the approach can't do the job, and what to do then).
 
-## Phase 1 — Sensing & ML  (planned)
+## Phase 1 — Sensing & ML  (in progress)
 - ESP32 + MPU6050 bring-up; verify range, ODR, axes
 - **Static noise-floor PSD** — confirm the sensor resolves calm-sea heave (ADR-0001)
 - Synthetic dataset from Pierson–Moskowitz / JONSWAP spectra (ADR-0002)
@@ -20,7 +18,7 @@ approach, not just what would confirm it.
   *before* any more ML work, rather than training on noise
 
 ## Phase 2 — Characterisation  (planned)
-- Build the stepper-driven oscillation rig; measure the instrument transfer function (dry)
+- Build a stepper-driven oscillation rig; measure the instrument transfer function (dry)
 - Build the hull; free-decay test in still water → natural frequency + damping, second-order fit
 - **Exit:** a measured instrument response across the wave band, and a measured hull natural
   frequency + damping ratio

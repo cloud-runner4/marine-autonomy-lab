@@ -8,7 +8,7 @@ Live engineering questions, updated as they resolve. Each links to the decision 
 2. **Present vs incipient bearing detection.** v1 should detect a *seeded* (gross) bearing defect.
    But *early* damage shows first as high-frequency resonance above the v1 band — so how far can
    plain FFT band-energy features go before envelope analysis + more bandwidth are required? This
-   is the boundary between what v1 can honestly claim and what is v2. (ADR-0003, ADR-0001)
+   is the boundary between what v1 can claim and what is v2. (ADR-0003, ADR-0001)
 3. **Pipeline cross-check against public data.** CWRU is recorded at 12/48 kHz on a high-bandwidth
    sensor, so it can't be compared like-for-like. Down-sampled into the v1 band, which fault
    signatures survive, and does the hand-built pipeline recover them? (ADR-0004)
@@ -17,7 +17,7 @@ Live engineering questions, updated as they resolve. Each links to the decision 
    between machines? Now a Phase-1 deliverable, not just a question.
 5. **Window length vs latency vs resolution.** What FFT window/overlap balances frequency
    resolution at low fault frequencies against responsiveness? (ADR-0007)
-6. **Per-class performance honesty.** Imbalance (1× RPM) and looseness (1× harmonics + raised
+6. **Per-class performance.** Imbalance (1× RPM) and looseness (1× harmonics + raised
    floor) are easily separable at this bandwidth, so headline accuracy will look high regardless.
    How is bearing-class performance reported separately so the metric isn't flattered by the easy
    classes? (method / ADR-0003)

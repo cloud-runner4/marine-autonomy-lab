@@ -19,4 +19,4 @@ hardware/
   gerbers/         # fabrication outputs
   bom.csv          # board BOM (links to ../docs/bom.md)
 ```
-Honest note: PCB design is a deliberate learning goal of this project, not existing capability.
+Note: PCB design is a deliberate learning goal of this project, not existing capability.

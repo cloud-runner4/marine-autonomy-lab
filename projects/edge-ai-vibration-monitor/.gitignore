@@ -1,0 +1,28 @@
+# PlatformIO / build
+.pio/
+.pioenvs/
+.piolibdeps/
+*.bin
+*.elf
+*.hex
+
+# Python (analysis / dataset scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# KiCad backups / autosave
+*-backups/
+*.kicad_pcb-bak
+*.sch-bak
+fp-info-cache
+
+# Large raw data — keep structure, not bulk recordings
+data/raw/*
+!data/raw/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

@@ -7,7 +7,7 @@
   machine-mounted sensor head) and fabricate via **PCBWay** for **v2**. Keep v1 on a dev board
   to de-risk firmware and ML first.
 - **Consequences:** Sequences the learning sensibly (firmware/ML before hardware). A custom board
-  enables a sealed, mountable form factor suited to deployment. Honest note: PCB design is **new**
+  enables a sealed, mountable form factor suited to deployment. Note: PCB design is **new**
   to me — this ADR records the intent and the learning path, not an existing capability.
 - **Alternatives considered:**
   - *Perfboard* — quicker, but less of the intended learning and no clean mountable form.

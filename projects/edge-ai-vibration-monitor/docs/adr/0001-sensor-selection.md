@@ -11,7 +11,7 @@
   fault harmonics that can be resolved. Adequate for method development and many lower-speed
   machines, but it may miss high-frequency bearing signatures — hence the upgrade path
   (ADR-0007 quantifies the sampling implications). The ADXL345 is cheap and very
-  well-documented; honest note: this is guided territory with many existing examples.
+  well-documented; note: this is guided territory with many existing examples.
 - **Alternatives considered:**
   - *MPU6050* — cheaper but noisier, lower ODR. Rejected.
   - *ADXL355* — lower noise, costlier, ODR ~4 kHz. Strong v2 candidate.

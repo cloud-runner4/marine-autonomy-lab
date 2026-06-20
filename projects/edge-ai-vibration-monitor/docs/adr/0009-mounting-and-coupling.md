@@ -21,7 +21,7 @@
      of transferring between machines.
 - **Consequences:** Adds a deliberate study before the fault-induction dataset, and a commissioning
   constraint (every capture records its mount condition — see `data/labels.csv`). In return it
-  produces a result almost no software portfolio holds, and it makes the later classifier honest:
+  produces a result almost no software portfolio holds, and it keeps the later classifier sound:
   performance is reported against a *known* coupling rather than an uncontrolled one. Establishes
   that "the mount is part of the measurement" as a first-class engineering claim, not a footnote.
 - **Alternatives considered:**
